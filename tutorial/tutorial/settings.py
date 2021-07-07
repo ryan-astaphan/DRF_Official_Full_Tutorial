@@ -40,9 +40,7 @@ INSTALLED_APPS = [
 
     # Third-party
     'rest_framework',
-
-    # Local
-    'snippets',
+    'snippets.apps.SnippetsConfig',
 ]
 
 MIDDLEWARE = [
